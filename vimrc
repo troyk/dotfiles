@@ -33,7 +33,7 @@ let mapleader=","
 let maplocalleader="\\"
 
 " Editing behaviour {{{
-set clipboard=unnamedplus       " make copy/paste work with system clipboard
+"set clipboard=unnamedplus       " make copy/paste work with system clipboard
 set showmode                    " always show what mode we're currently editing in
 set nowrap                      " don't wrap lines
 set tabstop=2                   " a tab is four spaces
@@ -84,6 +84,9 @@ set directory=~/.vim/tmp//,/tmp
 au BufRead,BufNewFile *.go set list noexpandtab syntax=go listchars=tab:\ \ ,trail:▓
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
 
+" pgsql specific sql syntax
+au BufNewFile,BufRead *.sql setf pgsql
+let g:sql_type_default = 'pgsql'
 
 " Highlighting {{{
 if &t_Co > 2 || has("gui_running")
