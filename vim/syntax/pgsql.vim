@@ -77,7 +77,7 @@ syn sync ccomment pgsqlComment
 syn keyword pgsqlType		 anyarray anyelement abstime anyenum
 syn keyword pgsqlType		 anynonarray any aclitem bytea bigserial
 syn keyword pgsqlType		 bit boolean bigint box cidr cstring char
-syn keyword pgsqlType		 character cid circle decimal double date 
+syn keyword pgsqlType		 character cid circle citext decimal double date 
 syn keyword pgsqlType		 enum gtsvector hstore inet interval 
 syn keyword pgsqlType		 internal int2vector int integer line lseg
 syn keyword pgsqlType		 language_handler macaddr money numeric
