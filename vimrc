@@ -12,7 +12,6 @@ filetype plugin indent on     " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
-
 Bundle 'kien/ctrlp.vim'
 " sometiems ctrlp working dir gets hosed, this supposed to fix it
 let g:ctrlp_working_path_mode = 0
@@ -27,6 +26,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'mileszs/ack.vim'
 Bundle 'gregsexton/MatchTag'
 Bundle 'sleistner/vim-jshint'
+Bundle 'terryma/vim-multiple-cursors'
 
 " Change the mapleader from \ to ,
 let mapleader=","
@@ -156,8 +156,8 @@ endfunction
 map <silent> <C-E> :call ToggleVExplorer()<CR>
 " Hit enter in the file browser to open the selected
 " file with :vsplit to the right of the browser.
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
+"let g:netrw_browse_split = 4
+"let g:netrw_altv = 1
 
 " Change directory to the current buffer when opening files.
 "set autochdir
