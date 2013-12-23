@@ -33,6 +33,8 @@ let mapleader=","
 let maplocalleader="\\"
 
 " Editing behaviour {{{
+" TODO: retest clipboard setting after upgrading to mavericks
+" on mountain lion, setting was injecting :netrw into clipboard on command-c
 "set clipboard=unnamedplus       " make copy/paste work with system clipboard
 set showmode                    " always show what mode we're currently editing in
 set nowrap                      " don't wrap lines
