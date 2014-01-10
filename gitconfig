@@ -1,0 +1,10 @@
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[core]
+	excludesfile = /Users/troy/.gitignore_global
+	editor = mvim -f
+[user]
+	name = Troy Kruthoff
+	email = tkruthoff@gmail.com
