@@ -21,12 +21,15 @@ let g:ctrlp_custom_ignore = {
 \ }
 
 Bundle 'ervandew/supertab'
+let g:SuperTabDefaultCompletionType = "context"
+
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-rails'
 Bundle 'mileszs/ack.vim'
 Bundle 'gregsexton/MatchTag'
 Bundle 'sleistner/vim-jshint'
 Bundle 'terryma/vim-multiple-cursors'
+Bundle 'cakebaker/scss-syntax.vim'
 
 " Change the mapleader from \ to ,
 let mapleader=","
